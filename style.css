@@ -6,15 +6,43 @@
 body {
     min-width: 100vw;
     min-height: 100vw;
+    margin: auto;
 }
 
 main {
     min-height: 80vh;
 }
 
-
-.hero {
-   display: flex;
+header {
+    margin-bottom: 20px;
 }
 
+footer {
+    text-align: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #777b7c;
+}
+
+img {
+    border-radius: 75px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 200px;
+    margin-top: 50px;
+    padding: 0px 80px;
+}
 
