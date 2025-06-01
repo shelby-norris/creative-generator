@@ -81,12 +81,11 @@ a {
 img {
   border-radius: 20px;
   box-shadow: 2px 2px 7px #253237;
-  
 }
 
 .learn-btn {
-    display: flex;
-    justify-content: left;
+  display: flex;
+  justify-content: left;
   text-align: center;
 }
 
@@ -102,9 +101,9 @@ button {
 }
 
 button:hover {
-    background-color: var(--yinmn-blue);
-    color: var(--antiflash-white);
-    cursor: pointer;
+  background-color: var(--yinmn-blue);
+  color: var(--antiflash-white);
+  cursor: pointer;
 }
 
 .info {
@@ -119,7 +118,6 @@ button:hover {
   background-color: rgba(39, 76, 119, 0.7);
   border-radius: 20px;
   box-shadow: 2px 2px 5px #253237;
-  
 }
 
 .info h2 {
@@ -134,12 +132,12 @@ button:hover {
 }
 
 .inspire-btn {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 footer {
-    margin-top: auto;
+  margin-top: auto;
   text-align: center;
   font-family: Lexend;
   color: #253237;
