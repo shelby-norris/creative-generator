@@ -15,8 +15,12 @@
 }
 
 body {
- background: #A2CDF1;
-background: linear-gradient(2deg, rgba(162, 205, 241, 1) 0%, rgba(138, 139, 137, 1) 14%, rgba(39, 76, 119, 1) 98%);
+  background: #a2cdf1;
+  background: linear-gradient(
+    2deg,
+    rgba(138, 139, 137, 1) 14%,
+    rgba(39, 76, 119, 1) 98%
+  );
   min-width: 100vw;
   min-height: 100vw;
   margin: 0;
@@ -84,14 +88,20 @@ img {
 }
 
 button {
-  width: 7rem;
-  height: 2rem;
+  width: 8rem;
+  height: 2.5rem;
   border-radius: 8px;
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: bold;
   font-family: quicksand;
   background-color: var(--uranian-blue);
   color: var(--yinmn-blue);
+}
+
+button:hover {
+    background-color: var(--yinmn-blue);
+    color: var(--antiflash-white);
+    cursor: pointer;
 }
 
 .info {
@@ -103,10 +113,9 @@ button {
   max-width: 800px;
   width: 90%;
   font-family: Quicksand;
-  background-color: rgba(39, 76, 119, .7);
+  background-color: rgba(39, 76, 119, 0.7);
   border-radius: 20px;
 }
-
 
 .info h2 {
   font-family: Lexend;
