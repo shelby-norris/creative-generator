@@ -139,6 +139,7 @@ button:hover {
 
 footer {
   margin-top: auto;
+  margin-bottom: 20px;
   text-align: center;
   font-family: Lexend;
   color: #253237;
@@ -162,5 +163,11 @@ footer {
   }
   .info {
     width: 60%;
+  }
+  .inspire-btn {
+    margin-bottom: auto;
+  }
+  footer {
+    margin: 20px 0px;
   }
 }
