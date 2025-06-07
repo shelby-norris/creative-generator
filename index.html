@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Creative Generator</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
@@ -38,7 +38,7 @@
         </div>
       </section>
 
-      <section class="info">
+      <section id="info" class="info">
         <div>
           <h2>Creative Solutions</h2>
         </div>
@@ -52,13 +52,15 @@
         </div>
       </section>
 
-      <section>
-        <!-- <div>JavaScript will display here</div> -->
-         <div class="inspire-btn">
-          <button>Inspire Me!</button>
-         </div>
+      <section id="generator" class="generator">
+        <div class="idea-box" id="idea-box">Click For Inspiration!</div>
       </section>
+      <div id="inspire-btn" class="inspire-btn">
+        <button>Inspire Me!</button>
+      </div>
     </main>
     <footer>&copy Shelby Norris 2025</footer>
+
+    <script src="script/script.js"></script>
   </body>
 </html>
